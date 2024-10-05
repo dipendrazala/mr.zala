@@ -27,6 +27,9 @@
     justify-content: space-around;
     font-size: larger;
 }
+.menu a{
+    cursor: pointer;
+}
 @media (max-width:800px){
     .menubar{
         /* border: 2px solid red; */
