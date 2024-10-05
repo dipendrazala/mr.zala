@@ -1,0 +1,62 @@
+.section1 {
+    /* border: 2px solid red; */
+    background-image: url(./vegetable.jpg);
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-size: cover;
+    height: 90vh;
+}
+
+.h1pbtn {
+    /* border: 2px solid green; */
+    color: white;
+    text-align: center;
+    margin-top: 190px;
+}
+.h1pbtn h1{
+    /* border: 2px solid blue; */
+    color: papayawhip;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1pbtn p{
+    /* border: 2px solid black; */
+    color: papayawhip;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1pbtn button{
+    /* border: 2px solid gold; */
+    text-align: center;
+    background-color: red;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 14px 12px 14px;
+}
+@media (max-width:800px){
+    .section1{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+    }
+    .h1pbtn{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+    }
+    .h1pbtn h1{
+        min-width: 100%;
+    }
+    .h1pbtn p{
+        /* border: 2px solid blue; */
+        min-width: 100%;
+    }
+    .h1pbtn button{
+        border: 2px solid green;
+        width: 40%;
+         
+    }
+}
